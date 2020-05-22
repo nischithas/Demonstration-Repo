@@ -1,0 +1,230 @@
+h1 {
+    color: aquamarine;
+    background-color: blue;
+    text-align: center;
+    text-shadow:5px 5px 4px blueviolet;
+}
+.one {
+    color: blueviolet;
+    background-color: chartreuse;
+}
+#italic {
+    color: darkgoldenrod;
+}
+.container {
+    border:5px solid darkred;
+}
+
+.container1 {
+    border:20px dashed darkred;
+    margin: 150px 50px 10px 1px;
+    padding: 10px 100px;
+}
+
+.container2 {
+    border:10px dotted darkred;
+    
+}
+.box {
+    display: block;
+    background-color: deeppink;
+    height: 100px;
+    width: 200px;
+    margin: 10px 100px;
+    box-shadow:10px 10px 10px 10px aquamarine inset;
+}
+}
+.box1 {
+    display: inline;
+    background-color: deeppink;
+    height: 100px;
+    width: 200px;
+    margin: 10px 100px;
+}
+.box2 {
+    display: inline;
+    background-color: deeppink;
+    height: 100px;
+    width: 200px;
+    margin: 10px 10px;
+    
+}
+nav {
+    background-color: dodgerblue;
+    text-align: center;
+}
+a {
+    text-decoration-line:none ;
+}
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 30px;
+}
+
+
+
+
+.CircleImg {
+    border-radius: 30%;
+}
+.CircleImg {
+    border-radius: 50%;
+}
+img {
+    box-shadow:10px 10px 10px 10px aquamarine;
+}
+.newBox {
+    
+    background-color: rgb(23, 125, 165);
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    /*display: inline-block;*/
+
+}
+@keyframes fadeMe {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#box11 {
+    animation-name: fadeMe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.flex {
+    border:3px solid crimson;
+    margin: 30px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(90deg);       
+    }
+    50% {
+        transform: rotate(180deg);       
+    }
+    100% {
+        transform: rotate(360deg);       
+    }
+}
+
+#box22 {
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: 4s;
+    animation-timing-function: ease-in-out;
+    border-radius: 10%;
+    background-image: radial-gradient(circle,purple,yellow,pink,orange);
+}
+
+@keyframes getBigger {
+    0% {
+        transform: scale(1);
+    }
+
+   50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+#box33 {
+    animation-name: getBigger;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    background: olivedrab;   
+
+}
+
+@keyframes changeColor{
+     0% { background-color: orangered;}
+     0% { background-color: pink;}
+     0% { background-color: red;}
+     0% { background-color: blue;}
+     0% { background-color: yellow;}
+}
+
+#box44 {
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: 4s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes moveBox{
+    0% {
+        Left:0px; Top: 0px;
+    }
+
+    25% {
+        Left:100px; Top: 0px;
+    }
+
+    50% {
+        Left:100px; Top: 200px;
+    }
+
+    75% {
+        Left:0px; Top: 200px;
+    }
+
+    100% {
+        Left:0px; Top: 0px;
+    }
+    
+
+}
+
+#box55 {
+    animation-name: moveBox;
+    animation-duration: 3s;
+    animation-iteration-count: 4s;
+    animation-timing-function: linear;
+    position: relative;
+    background: palevioletred;
+}
+
+#box66 {
+    top:200px;
+    left: 400px;
+    position: relative;
+    position: fixed;
+}
+
+html {
+    background-image: repeating-linear-gradient(to right, blue, green, purple);
+    /*background-image: url(sbe.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+form input, textarea {
+    display: block;
+    margin: 30px;
+}
+.nav-wrapper {
+    background-color:blueviolet  ;
+}
